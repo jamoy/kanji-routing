@@ -1,0 +1,30 @@
+{
+  "name": "kanji-routing",
+  "version": "1.0.0",
+  "description": "Routing component for Kanji",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*Spec.js",
+    "lint": "jshint . --reporter=./node_modules/jshint-full-path/index.js",
+    "jscs": "jscs .",
+    "posttest": "npm run-script lint && npm run-script jscs",
+    "cover": "istanbul cover ./node_modules/.bin/_mocha -- --recursive -R spec tests/**/*Spec.js"
+  },
+  "authors": {
+    "name": "John Rocela",
+    "email": "jamoy@hooq.tv"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "istanbul": "^0.3.21",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "jscs": "^2.2.1",
+    "jshint": "^2.8.0",
+    "jshint-full-path": "^1.1.1",
+    "route-parser": "0.0.4",
+    "underscore": "^1.8.3"
+  }
+}
