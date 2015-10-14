@@ -2,6 +2,8 @@
 
 The routing utlity is based on laravel's implementation. See below for usage.
 
+[![Build Status](https://travis-ci.org/jamoy/kanji-routing.svg)](https://travis-ci.org/jamoy/kanji-routing)
+
 #### Usage
 
 ```js
