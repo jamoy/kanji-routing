@@ -1,4 +1,4 @@
-# KANJI/ROUTING
+# Routing Utility
 
 The routing utlity is based on laravel's implementation. See below for usage.
 
